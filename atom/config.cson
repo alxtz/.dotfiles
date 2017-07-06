@@ -1,0 +1,170 @@
+"*":
+  "advanced-open-file":
+    createDirectories: true
+    createFileInstantly: true
+  aligner:
+    alignComments: true
+  "aligner-javascript":
+    ",-leftSpace": true
+    ":-leftSpace": true
+  "aligner-scss":
+    ":-alignment": "left"
+    ":-leftSpace": true
+  "atom-beautify":
+    html:
+      brace_style: "expand"
+      end_with_newline: true
+      indent_inner_html: true
+    js: {}
+    sass: {}
+    scss:
+      beautify_on_save: true
+      default_beautifier: "CSScomb"
+  "atom-clock":
+    dateFormat: "MMMM Do, dddd, h:mm a"
+    locale: "zh_CN"
+  "atom-ignore": {}
+  "autocomplete-emojis":
+    enableMarkdownEmojis: false
+  "bracket-matcher":
+    autocompleteCharacters: [
+      "()"
+      "[]"
+      "{}"
+      "\"\""
+      "''"
+      "``"
+      "“”"
+      "‘’"
+      "«»"
+      "<>"
+    ]
+  "bracket-matcher-highlight":
+    autocompleteCharacters: [
+      "()"
+      "[]"
+      "{}"
+      "\"\""
+      "''"
+      "``"
+      "“”"
+      "‘’"
+      "«»"
+      "<>"
+    ]
+  core:
+    closeDeletedFileTabs: true
+    disabledPackages: [
+      "atom-bracket-highlight"
+      "fancy-bracket-matcher"
+      "atom-brackets-glow"
+      "highlight-column"
+      "atom-keyboard-macros"
+      "hey-pane"
+      "autocomplete-emojis"
+      "wrap-guide"
+      "term"
+      "atom-terminal"
+      "atom-clock"
+      "busy-signal"
+      "sass-autocompile"
+      "term3"
+      "white-cursor"
+      "language-gfm"
+      "git-diff-details"
+      "split-diff"
+      "git-plus"
+      "git-log"
+      "git-control"
+      "language-javascript-jsx"
+      "youtube-pane"
+      "atomify"
+      "grammar-token-limit"
+      "atom-ignore"
+      "html-outliner"
+      "swackets"
+      "smart-tab-name"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "node_modules"
+      "package.json"
+      "package-lock.json"
+      ".babelrc"
+      ".gitignore"
+    ]
+    packagesWithKeymapsDisabled: []
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "no"
+    themes: [
+      "pristine-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    fontFamily: "Fira Code"
+    fontSize: 22
+    showIndentGuide: true
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "09673361-27d4-4e72-a71a-e2ac1655b489"
+  "git-diff":
+    showIconsInEditorGutter: true
+  "git-log":
+    fontScale: 0.8
+  "grammar-token-limit":
+    maxTokensPerLine: 1000
+  "hey-pane":
+    expandedWidth: 100
+  "highlight-column":
+    enabled: false
+    lineMode: true
+  "highlight-line":
+    enableBackgroundColor: false
+    enableUnderline: true
+    hideHighlightOnSelect: true
+  livereload:
+    applyCSSLive: false
+  "one-dark-ui":
+    fontSize: 12
+  "open-on-github": {}
+  pigments: {}
+  "pristine-ui":
+    fontSize: 15
+    layoutMode: "Spacious"
+    tabSizing: "Even"
+  "sass-autocompile":
+    compileCompressed: false
+    compileExpanded: true
+    compileOnSave: false
+    indentWidth: 4
+  "split-diff":
+    colors: {}
+    hideTreeView: true
+    ignoreWhitespace: true
+  "status-bar":
+    fullWidth: false
+  tabs:
+    enableVcsColoring: true
+  term3:
+    autoRunCommand: "source ~/.zshrcTerm3; clear"
+    colors:
+      background: "#383d43"
+      brightBlack: "#383d43"
+    cursorBlink: false
+    fontFamily: "Fira mono for Powerline"
+    fontSize: "19"
+  "tree-ignore": {}
+  "tree-view":
+    hideIgnoredNames: true
+    showOnRightSide: false
+  "vim-mode-plus":
+    statusBarModeStringStyle: "long"
+  welcome:
+    showOnStartup: false
